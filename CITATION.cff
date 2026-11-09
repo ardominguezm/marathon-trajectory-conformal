@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Conformal prediction intervals for machine learning forecasts of marathon finish times across checkpoints and races"
+type: software
+authors:
+  - family-names: "Domínguez-Monterroza"
+    given-names: "Andy"
+repository-code: "https://github.com/ardominguezm/marathon-trajectory-conformal"
+license: MIT

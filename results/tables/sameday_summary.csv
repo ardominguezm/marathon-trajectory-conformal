@@ -1,0 +1,8 @@
+method,mean |cov - 0.90|,worst cell coverage,cells within 0.03 of 0.90
+static_source,0.033,0.747,15
+naive,0.027,0.747,16
+shift_median,0.031,0.747,16
+shift_q,0.026,0.747,17
+aci_g0.005,0.031,0.763,16
+aci_g0.02,0.026,0.82,15
+oracle_fewshot_static,0.003,0.894,24

@@ -1,0 +1,42 @@
+\begin{tabular}{llrrrr}
+\toprule
+ &  & coverage & width\_mean & interval\_score & rmse\_point \\
+checkpoint & method &  &  &  &  \\
+\midrule
+\multirow[t]{6}{*}{10K} & lgbm\_hetero\_localCP & 0.902000 & 49.950000 & 71.543000 & 17.877000 \\
+ & lgbm\_quantile\_CQR & 0.901000 & 53.358000 & 69.395000 & NaN \\
+ & lgbm\_quantile\_CQR\_absolute\_target & 0.901000 & 53.603000 & 69.499000 & NaN \\
+ & mlp\_hetero\_localCP & 0.900000 & 50.214000 & 70.881000 & 18.165000 \\
+ & naive\_extrapolation\_splitCP & 0.925000 & 94.381000 & 119.078000 & 24.980000 \\
+ & random\_forest\_localCP & 0.899000 & 51.062000 & 72.025000 & 18.348000 \\
+\cline{1-6}
+\multirow[t]{6}{*}{20K} & lgbm\_hetero\_localCP & 0.902000 & 31.493000 & 47.915000 & 11.469000 \\
+ & lgbm\_quantile\_CQR & 0.906000 & 33.451000 & 46.113000 & NaN \\
+ & lgbm\_quantile\_CQR\_absolute\_target & 0.907000 & 33.630000 & 46.188000 & NaN \\
+ & mlp\_hetero\_localCP & 0.901000 & 30.865000 & 47.143000 & 11.409000 \\
+ & naive\_extrapolation\_splitCP & 0.922000 & 74.295000 & 94.811000 & 20.451000 \\
+ & random\_forest\_localCP & 0.900000 & 31.381000 & 47.828000 & 11.570000 \\
+\cline{1-6}
+\multirow[t]{6}{*}{30K} & lgbm\_hetero\_localCP & 0.907000 & 16.839000 & 25.807000 & 6.309000 \\
+ & lgbm\_quantile\_CQR & 0.908000 & 17.614000 & 25.014000 & NaN \\
+ & lgbm\_quantile\_CQR\_absolute\_target & 0.905000 & 18.123000 & 25.469000 & NaN \\
+ & mlp\_hetero\_localCP & 0.905000 & 16.523000 & 25.516000 & 6.229000 \\
+ & naive\_extrapolation\_splitCP & 0.913000 & 40.819000 & 55.311000 & 12.096000 \\
+ & random\_forest\_localCP & 0.908000 & 17.028000 & 25.572000 & 6.344000 \\
+\cline{1-6}
+\multirow[t]{6}{*}{40K} & lgbm\_hetero\_localCP & 0.899000 & 2.773000 & 4.313000 & 1.207000 \\
+ & lgbm\_quantile\_CQR & 0.896000 & 2.763000 & 4.169000 & NaN \\
+ & lgbm\_quantile\_CQR\_absolute\_target & 0.894000 & 21.127000 & 22.393000 & NaN \\
+ & mlp\_hetero\_localCP & 0.894000 & 2.755000 & 4.275000 & 1.206000 \\
+ & naive\_extrapolation\_splitCP & 0.906000 & 5.023000 & 8.084000 & 1.733000 \\
+ & random\_forest\_localCP & 0.894000 & 2.811000 & 4.280000 & 1.211000 \\
+\cline{1-6}
+\multirow[t]{6}{*}{5K} & lgbm\_hetero\_localCP & 0.895000 & 60.736000 & 85.956000 & 22.127000 \\
+ & lgbm\_quantile\_CQR & 0.897000 & 68.566000 & 86.354000 & NaN \\
+ & lgbm\_quantile\_CQR\_absolute\_target & 0.897000 & 68.599000 & 86.135000 & NaN \\
+ & mlp\_hetero\_localCP & 0.891000 & 59.954000 & 84.467000 & 22.242000 \\
+ & naive\_extrapolation\_splitCP & 0.920000 & 102.238000 & 132.834000 & 27.685000 \\
+ & random\_forest\_localCP & 0.893000 & 61.900000 & 86.844000 & 22.499000 \\
+\cline{1-6}
+\bottomrule
+\end{tabular}

@@ -1,0 +1,32 @@
+|                                              |   coverage |   width_mean |   interval_score |   rmse_point |
+|:---------------------------------------------|-----------:|-------------:|-----------------:|-------------:|
+| ('10K', 'lgbm_hetero_localCP')               |      0.902 |       49.95  |           71.543 |       17.877 |
+| ('10K', 'lgbm_quantile_CQR')                 |      0.901 |       53.358 |           69.395 |      nan     |
+| ('10K', 'lgbm_quantile_CQR_absolute_target') |      0.901 |       53.603 |           69.499 |      nan     |
+| ('10K', 'mlp_hetero_localCP')                |      0.9   |       50.214 |           70.881 |       18.165 |
+| ('10K', 'naive_extrapolation_splitCP')       |      0.925 |       94.381 |          119.078 |       24.98  |
+| ('10K', 'random_forest_localCP')             |      0.899 |       51.062 |           72.025 |       18.348 |
+| ('20K', 'lgbm_hetero_localCP')               |      0.902 |       31.493 |           47.915 |       11.469 |
+| ('20K', 'lgbm_quantile_CQR')                 |      0.906 |       33.451 |           46.113 |      nan     |
+| ('20K', 'lgbm_quantile_CQR_absolute_target') |      0.907 |       33.63  |           46.188 |      nan     |
+| ('20K', 'mlp_hetero_localCP')                |      0.901 |       30.865 |           47.143 |       11.409 |
+| ('20K', 'naive_extrapolation_splitCP')       |      0.922 |       74.295 |           94.811 |       20.451 |
+| ('20K', 'random_forest_localCP')             |      0.9   |       31.381 |           47.828 |       11.57  |
+| ('30K', 'lgbm_hetero_localCP')               |      0.907 |       16.839 |           25.807 |        6.309 |
+| ('30K', 'lgbm_quantile_CQR')                 |      0.908 |       17.614 |           25.014 |      nan     |
+| ('30K', 'lgbm_quantile_CQR_absolute_target') |      0.905 |       18.123 |           25.469 |      nan     |
+| ('30K', 'mlp_hetero_localCP')                |      0.905 |       16.523 |           25.516 |        6.229 |
+| ('30K', 'naive_extrapolation_splitCP')       |      0.913 |       40.819 |           55.311 |       12.096 |
+| ('30K', 'random_forest_localCP')             |      0.908 |       17.028 |           25.572 |        6.344 |
+| ('40K', 'lgbm_hetero_localCP')               |      0.899 |        2.773 |            4.313 |        1.207 |
+| ('40K', 'lgbm_quantile_CQR')                 |      0.896 |        2.763 |            4.169 |      nan     |
+| ('40K', 'lgbm_quantile_CQR_absolute_target') |      0.894 |       21.127 |           22.393 |      nan     |
+| ('40K', 'mlp_hetero_localCP')                |      0.894 |        2.755 |            4.275 |        1.206 |
+| ('40K', 'naive_extrapolation_splitCP')       |      0.906 |        5.023 |            8.084 |        1.733 |
+| ('40K', 'random_forest_localCP')             |      0.894 |        2.811 |            4.28  |        1.211 |
+| ('5K', 'lgbm_hetero_localCP')                |      0.895 |       60.736 |           85.956 |       22.127 |
+| ('5K', 'lgbm_quantile_CQR')                  |      0.897 |       68.566 |           86.354 |      nan     |
+| ('5K', 'lgbm_quantile_CQR_absolute_target')  |      0.897 |       68.599 |           86.135 |      nan     |
+| ('5K', 'mlp_hetero_localCP')                 |      0.891 |       59.954 |           84.467 |       22.242 |
+| ('5K', 'naive_extrapolation_splitCP')        |      0.92  |      102.238 |          132.834 |       27.685 |
+| ('5K', 'random_forest_localCP')              |      0.893 |       61.9   |           86.844 |       22.499 |
