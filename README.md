@@ -20,7 +20,8 @@ Python 3.10 or later. The main dependencies are numpy, pandas, scikit-learn and 
 
 ## Data
 
-The race results are public but are not redistributed here. Place the input files in `data/` as described in
+The data are per-runner split times from the official results websites of the World Marathon Majors (Boston,
+Chicago, New York and Berlin). They are public but are not redistributed here. Place the input files in `data/` as described in
 [`data/README.md`](data/README.md).
 
 ## Reproducing the results

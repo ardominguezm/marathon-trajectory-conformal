@@ -1,7 +1,8 @@
 # Data (not tracked)
 
 Place these files in this folder. They are excluded by `.gitignore` because of redistribution restrictions on the
-original race results. The cleaned files are those of the companion repository
+original race results. The data are per-runner split times published on the official results websites of the
+World Marathon Majors (Boston, Chicago, New York and Berlin). The cleaned files are those of the companion repository
 [ardominguezm/marathon-km-collapse](https://github.com/ardominguezm/marathon-km-collapse).
 
 | File | Content | Rows |
