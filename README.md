@@ -40,12 +40,12 @@ Every result file in `results/` is written by one of the scripts below; `experim
 | Table 4 (learners on 60,000 rows) | `run_baselines.py --max-train 60000 --max-train-dl 60000` | `baselines_full.csv` |
 | Absolute target with 150,000 rows | `run_baselines.py` (default sizes) | `baselines_full_unequal150k.csv` |
 | Absolute-target ablation of the trajectory results | `run_trajectory.py --target absolute` | `trajectory_*_temporal_absolute.csv` |
-| Table 5, Figure 3 (transfer across events) | `run_transport.py` | `transport_full.csv` |
-| Table 6 (causal same-day recalibration) | `run_sameday.py` | `sameday_full.csv` |
+| Table 5 (transfer across events) | `run_transport.py` | `transport_full.csv` |
+| Table S3 (causal same-day recalibration) | `run_sameday.py` | `sameday_full.csv` |
 | Table S1 (coverage at 30 km by subgroup) | `run_trajectory.py` | `trajectory_slices_*.csv` |
 | Table S2 (joint coverage by subgroup) | `run_joint_subgroups.py` | `joint_by_subgroup.csv` |
 | Computational cost | `run_timing.py` | `timing.csv` |
-| Simulation study (Section 4, Table S4) | `run_simulation.py --reps 20` | `simulation/sim_*.csv` |
+| Table 6 and Table S4 (simulation study) | `run_simulation.py --reps 20` | `simulation/sim_*.csv` |
 
 Every script accepts `--quick` for a one-minute smoke run on a subsample.
 
