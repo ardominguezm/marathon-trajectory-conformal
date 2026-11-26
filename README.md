@@ -45,6 +45,7 @@ Every result file in `results/` is written by one of the scripts below; `experim
 | Table S1 (coverage at 30 km by subgroup) | `run_trajectory.py` | `trajectory_slices_*.csv` |
 | Table S2 (joint coverage by subgroup) | `run_joint_subgroups.py` | `joint_by_subgroup.csv` |
 | Computational cost | `run_timing.py` | `timing.csv` |
+| Simulation study (Section 4, Table S4) | `run_simulation.py --reps 20` | `simulation/sim_*.csv` |
 
 Every script accepts `--quick` for a one-minute smoke run on a subsample.
 

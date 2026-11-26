@@ -22,5 +22,6 @@ python run_transport.py --seeds 2 2>&1 | tee ../results/logs/transport.log
 python run_sameday.py   --seeds 2 2>&1 | tee ../results/logs/sameday.log
 # Computational cost
 python run_timing.py
+python run_simulation.py --reps 20 --out ../results/simulation
 # Summary tables in results/tables
 python make_tables.py
